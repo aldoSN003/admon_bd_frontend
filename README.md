@@ -1,16 +1,58 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# ⚛️ React + Tailwind CSS Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este es el repositorio de nuestro frontend, una aplicación **React** creada con Vite y estilizada con **Tailwind CSS**. Sigue las instrucciones para configurar tu entorno de desarrollo.
 
-## React Compiler
+-----
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📋 Requisitos Previos
 
-## Expanding the ESLint configuration
+Asegúrate de tener instalado lo siguiente:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * **Node.js** (versión recomendada: 18 o superior)
+  * **npm** (Node Package Manager)
+  * **Git**
+
+-----
+
+## 💻 1. Clonar el Repositorio
+
+Abre tu terminal y ejecuta el siguiente comando para obtener el código fuente.
+
+```bash
+git clone https://github.com/aldoSN003/admon_bd_frontend.git
+
+```
+
+-----
+
+## 📦 2. Instalar Dependencias
+
+Una vez dentro del directorio del proyecto, utiliza `npm` para instalar todas las dependencias necesarias, incluyendo React, Tailwind CSS y Vite.
+
+```bash
+
+npm install
+
+```
+
+-----
+
+## ▶️ 3. Ejecutar la Aplicación
+
+Después de instalar las dependencias, puedes iniciar el servidor de desarrollo local. Este comando incluye la configuración de **Vite** para HMR (Hot Module Replacement) y el proceso de compilación de **Tailwind CSS**.
+
+```bash
+npm run dev
+```
+
+  * La aplicación estará accesible en: **`http://localhost:5173`** (o el puerto que muestre tu terminal).
+
+-----
+
+
+## 💡 Consejos para Colaboradores
+
+  * **Ramas:** Asegúrate de crear una nueva rama para tus características o correcciones: `git checkout -b feature/nombre-de-tu-rama`.
+  * **Estilo:** Utiliza preferentemente las **clases de utilidad de Tailwind** directamente en el JSX. Evita modificar los archivos CSS globales a menos que sea absolutamente necesario para estilos base o directivas de Tailwind.
